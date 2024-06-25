@@ -1,0 +1,15 @@
+# Langsmith config
+LANGCHAIN_TRACING_V2=true
+LANGCHAIN_API_KEY="ls__xxx"
+LANGCHAIN_PROJECT=JobAgent
+
+# Trvily API KEY
+TAVILY_API_KEY="tvly-xxx"
+
+# OPENAI API KEY : use Deepseek API KEY
+OPENAI_API_KEY="sk-xxxx"
+OPENAI_BASE_URL="https://api.deepseek.com/v1"
+
+
+# aliyun dashscope API KEY
+DASHSCOPE_API_KEY="sk-xxxx"
