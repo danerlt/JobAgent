@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "jobagent"
+version = "0.1.0"
+description = ""
+authors = ["danerlt <danerlt001@gmail.com>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.10"
+langchain = "^0.2.5"
+openai = "^1.35.3"
+python-dotenv = "^1.0.1"
+llama-index = "^0.10.50"
+langgraph = "^0.1.1"
+langchain-community = "^0.2.5"
+langchain-openai = "^0.1.9"
+dashscope = "^1.20.0"
+langchainhub = "^0.1.20"
+chromadb = "^0.5.3"
+tavily-python = "^0.3.3"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.2.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
